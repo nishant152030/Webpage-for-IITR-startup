@@ -1,0 +1,76 @@
+.vision-child-imagediv {
+    height: 388px;
+    margin-left: 27%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.ecelliitr.org/static/media/logo.3aeeb1208fe783c9dfa7.gif);
+    background-repeat: no-repeat;
+}
+
+.card:hover {
+    border: solid lightblue;
+
+}
+
+.card {
+    margin: 5%;
+    align-items: stretch;
+    position: relative;
+}
+
+.carousel-caption {
+    color: white;
+}
+
+@media (min-width:1040px) {
+    .carousel-item {
+        height: 680px;
+    }
+
+    .carousel-item h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:1040px) {
+    .vision-child-imagediv {
+        margin-left: 10%;
+    }
+
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carousel-item h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:700px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+@media (max-width:590px) {
+    .carousel-item p {
+        display: none;
+    }
+
+    .carousel-item h1 {
+        font-size: 40px;
+    }
+
+    .vision-child-imagediv {
+        margin-left: 5%;
+    }
+
+    .card .card-text {
+        display: none;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+}
